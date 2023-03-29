@@ -6,18 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danny.Corso.Gallery</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--Font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Tillana:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
         <nav class="nav-main">
-            <img src="img/background/brand.png" alt="logo" class="nav-brand">
+            <img class="nav-brand" src="img/background/brand.png" alt="logo">
             <ul class="nav-menu">
                 <li>
                     <a href="">Home</a>
@@ -32,15 +36,48 @@
                     <a href="">Contact</a>
                 </li>
             </ul>
-            <!--Formulario búsqueda, name=valor único y significativo-->
-            <form>
-                <input type="search" name="q">
-                <button type="submit">Buscar</button>
-            </form>
-
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+            </ul>
         </nav>
+        <hr>
+        <!--Primera sección-->
+        <header class="showcase">
+            <h2>Showcase</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis fugit nobis animi id praesentium, atque eveniet suscipit, labore voluptas minima neque quasi tenetur, iure asperiores porro ipsam molestiae? Voluptate, doloremque.
+            </p>
+            <a href="a" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+        </header>
+        <!--Segunda sección-->
+        <div class="gallery">
+            <div>
+                <img src="img/aveFenix.jpg" alt="pintura 1">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, suscipit. Autem accusamus expedita deserunt iste tempora vero molestiae aliquam? Voluptatum.</p>
+                <a href="a">Learn More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/bonds.jpg" alt="pintura 2">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, suscipit. Autem accusamus expedita deserunt iste tempora vero molestiae aliquam? Voluptatum.</p>
+                <a href="a">Learn More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/light.jpg" alt="pintura 3">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, suscipit. Autem accusamus expedita deserunt iste tempora vero molestiae aliquam? Voluptatum.</p>
+                <a href="a">Learn More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="img/wabisabi.jpg" alt="pintura 4">
+                <h3>Lorem, ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, suscipit. Autem accusamus expedita deserunt iste tempora vero molestiae aliquam? Voluptatum.</p>
+                <a href="a">Learn More<i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
     </div>
-
 
 </body>
 

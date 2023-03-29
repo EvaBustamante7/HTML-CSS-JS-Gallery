@@ -3,3 +3,17 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-image: url(/img/background/background.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 16px;
+    font-family:'Tillana', cursive;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
