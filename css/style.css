@@ -39,6 +39,14 @@
     flex: 1;
     margin-left: 20px;
 }
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    *display: none;
+}
 
 hr {
     margin: 10px 0;
@@ -49,7 +57,7 @@ hr {
     width: 100%;
     height: 550px;
     background: url(/img/background/showcase1.jpg) no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -60,10 +68,6 @@ hr {
 .showcase h2,
 .showcase p {
     margin-bottom: 10px;
-}
-
-.showcase p {
-    padding: 0 50px;
 }
 
 .btn {
@@ -119,9 +123,7 @@ hr {
 
     margin-bottom: 40px;
 }
-.content p {
-    font-weight: 600;
-}
+
 .banner1 p,
 .banner1 h2 {
     margin: 10px 0 20px 0;
@@ -142,8 +144,8 @@ hr {
     margin: 10px 0 20px 0;
 }
 .banner2 .content2 {
-    width: 50%;
-    padding: 100px 0 0 30px;
+    width: 40%;
+    padding: 90px 0 0 30px;
     color: black;
 }
 /*Social*/
