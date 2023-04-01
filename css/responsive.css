@@ -1,5 +1,5 @@
 /*Media query*/
-@media (max-width: 700px){
+@media (max-width: 700px) {
     .nav-main ul.nav-menu {
         display: block;
         position: absolute;
@@ -23,6 +23,9 @@
     .nav-main ul.nav-menu-right {
         margin-right: 40px;
     }
+    .menu-btn {
+        display: block;
+    }
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -35,5 +38,22 @@
     }
     footer .footer-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .gallery img {
+        height: 450px;
+    }
+    .banner1 .content,
+    .banner2 .content2 {
+        width: 100%;
+        padding: 60px 20px;
+    }
+    footer .footer-container {
+        grid-template-columns: 1fr;
     }
 }
