@@ -7,5 +7,21 @@ let target = 0;
 let ease = .05;
 
 images.forEach((img, idx) => {
-    img.style.backgroundImage = `url(./img_gallery/${idx+1}.jpeg)`
+    img.style.backgroundImage = `url(./img_gallery/${idx+1}.jpg)`
 })
+
+function lerp(start, end, t){
+    return start * (1-t) + end * t;
+}
+
+function setTransform(el, transform){
+    el.style.transform = transform;
+}
+
+function init(){
+    sliderWidth = slider.getBoundingClientRect().width;
+    imageWidth = sliderWidth / images.length;
+    document.body.style.height = `${sliderWidth - (window.innerWidth - window.innerHeight)}px`
+}
+
+init();
