@@ -5,8 +5,25 @@
 }
 
 body {
-    background-color: #9d96e7;
+    /*background-color: #645CBB;*/
+    background: linear-gradient(-45deg, #A084DC, #ee7752, #BFACE2, #645CBB, #EBC7E6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
     overscroll-behavior: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+ 
 }
 
 main {
@@ -53,12 +70,12 @@ main {
 /*Back to index*/
 .back {
     display: inline-block;
-    padding: 10px;
-    background-color: #121212;
-    color: #d7cbcb;
+    padding: 10px 20px;
+    background-color: #A084DC;
+    color: white;
     text-decoration: none;
     border: none;
-    border-radius: 2px;
+    border-radius: 5px;
     font-size: 16px;
 }
 
