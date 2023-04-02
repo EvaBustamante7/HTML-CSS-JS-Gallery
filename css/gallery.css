@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(0, 0, 0);
     overscroll-behavior: none;
 }
 
@@ -39,7 +39,6 @@ main {
     width: 400px;
     height: 100%;
     overflow: hidden;
-    /*background-color: blueviolet;*/
 }
 
 .img {
@@ -49,4 +48,25 @@ main {
     height: 100%;
     background-size: contain;
     background-position: center;
+}
+
+/*Back to index*/
+.back {
+    display: inline-block;
+    padding: 10px;
+    background-color: #121212;
+    color: #d7cbcb;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.back::before {
+    content: "\00ab";
+    margin-right: 5px;
+  }
+
+.back:hover::before {
+    margin-right: 10px;
 }
