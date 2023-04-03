@@ -198,6 +198,11 @@ hr {
     justify-content: center;
 }
 
+.footer-container a {
+    color: black;
+    font-size: large;
+}
+
 .footer-container ul {
     margin: 0 auto;
 }
