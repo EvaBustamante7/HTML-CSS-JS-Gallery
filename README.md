@@ -1,2 +1,18 @@
+	![alt text](Post instagram quote frase.png)
+
 # HTML-CSS-JS-Gallery
-Trying my best to create my first website
+
+
+## Instalación
+
+
+## Uso
+
+
+## Contribución
+
+
+## Contacto
+
+
+## Links
