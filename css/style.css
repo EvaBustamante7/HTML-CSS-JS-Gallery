@@ -39,7 +39,7 @@
     flex: 1;
     margin-left: 20px;
 }
-
+/*Menú sidebar*/
 .menu-btn {
     position: absolute;
     cursor: pointer;
@@ -89,7 +89,7 @@ hr {
     opacity: .7;
 }
 
-/*Segunda sección*/
+/*Segunda sección galería*/
 .gallery {
     display: grid;
     /*also: 1fr 1fr 1fr 1fr*/

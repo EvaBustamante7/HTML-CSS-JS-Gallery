@@ -13,6 +13,18 @@ body {
     font-family: 'Tillana', cursive;
 }
 
+#custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("");
+    background-size: cover;
+    z-index: 9999;
+    pointer-events: none;
+  }
+
 a {
     color: white;
     text-decoration: none;
